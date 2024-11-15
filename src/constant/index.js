@@ -1,6 +1,7 @@
 import project1 from "../assets/projects img/project.png";
 import project2 from "../assets/projects img/project-2.png";
 import project3 from "../assets/projects img/project-3.png";
+import project4 from "../assets/projects img/project-4.png";
 
 export const HERO_CONTENT = `I am a passionate Frontend developer with a knack for crafting robust and scalable web applications. 
 I have honed my skills in front-end technologies like React and Tailwiind CSS. 
@@ -19,7 +20,7 @@ export const EXPERIENCES = [
     role: "Frontend Developer Trainee",
     company: "SAIL Innovation Lab",
     description: `Collaborated with a team to design and develop web applications using HTML, CSS, 
-JavaScript, and React, enhancing user experience and functionality.`,
+    JavaScript, and React, enhancing user experience and functionality.`,
     technologies: ["Javascript", "React.js", "HTML", "CSS"],
   },
 ];
@@ -45,12 +46,12 @@ export const PROJECTS = [
   },
   {
     title: "Portfolio Website",
-    image: project3,
+    image: project4,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
-    href: "https://form-page-raji-itunu-idowus-projects.vercel.app",
-    git: "https://github.com/itunumide/Form-Page",
+    href: "https://itunu-raji.vercel.app",
+    git: "https://github.com/itunumide/sail-portfolio",
   },
   {
     title: "Hero Page",
