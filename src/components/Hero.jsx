@@ -15,7 +15,7 @@ const Hero = () => {
     <div className="border-b border-neutral-900 pb-4 lg:mb-35 ">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
-          <div className="flex flex-col items-centerlg:pl-10 lg:items-start">
+          <div className="flex flex-col items-center lg:pl-10 duration-300 ease-out hover:translate-x-4 lg:items-start">
             <motion.h1
               variants={Container(0)}
               initial="hidden"
@@ -43,14 +43,14 @@ const Hero = () => {
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg-p-8">
-          <div className="flex justify-center">
+          <div className="flex hover:scale-105 duration-300 ease-out justify-center">
             <motion.img
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2}}
               src={profilePic}
               alt="itunu Raji"
-              className="rounded-2xl w-[60%]"
+              className="rounded-2xl  w-[60%]"
             />
           </div>
         </div>

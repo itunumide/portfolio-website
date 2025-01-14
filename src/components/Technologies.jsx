@@ -38,7 +38,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <RiReactjsLine className="text-7xl text-cyan-400" />
+          <RiReactjsLine className="text-6xl md:text-7xl text-cyan-400" />
         </motion.div>
         <motion.div
           variants={iconVariant(2.5)}
@@ -46,7 +46,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <SiVercel className="text-7xl" />
+          <SiVercel className="text-6xl md:text-7xl" />
         </motion.div>
         <motion.div
           variants={iconVariant(3)}
@@ -54,7 +54,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <SiVisualstudiocode className="text-7xl text-[#007ACC]" />
+          <SiVisualstudiocode className="text-6xl md:text-7xl text-[#007ACC]" />
         </motion.div>
         <motion.div
           variants={iconVariant(5)}
@@ -62,7 +62,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <FaHtml5 className="text-7xl text-{#1572B6}" />
+          <FaHtml5 className="text-6xl md:text-7xl text-{#1572B6}" />
         </motion.div>
         <motion.div
           variants={iconVariant(2)}
@@ -70,7 +70,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <FaGithub className="text-7xl " />
+          <FaGithub className="text-6xl md:text-7xl " />
         </motion.div>
         <motion.div
           variants={iconVariant(6)}
@@ -78,7 +78,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <SiJavascript className="text-7xl text-[#F7DF1E]" />
+          <SiJavascript className="text-6xl md:text-7xl text-[#F7DF1E]" />
         </motion.div>
         <motion.div
           variants={iconVariant(4)}
@@ -86,7 +86,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <SiTailwindcss className="text-7xl text-[#38B2AC]" />
+          <SiTailwindcss className="text-6xl md:text-7xl text-[#38B2AC]" />
         </motion.div>
         <motion.div
           variants={iconVariant(7)}
@@ -94,7 +94,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <FaCss3Alt className="text-7xl text-[#1572B6]" />
+          <FaCss3Alt className="text-6xl md:text-7xl text-[#1572B6]" />
         </motion.div>
       </motion.div>
     </div>

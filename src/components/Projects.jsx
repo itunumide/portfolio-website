@@ -23,7 +23,7 @@ export const Projects = () => {
               transition={{ duration: 1 }}
               className="w-full lg:w-1/4"
             >
-              <div className="w-[12rem] h-[100px]">
+              <div className="w-[12rem] mb-2 h-[100px]">
                 <img
                   src={project.image}
                   alt={project.title}
@@ -43,7 +43,7 @@ export const Projects = () => {
               {project.technologies.map((tech, index) => (
                 <span
                   key={index}
-                  className=" px-2 py-1 text-sm font-medium text-purple-800  mr-2 rounded bg-neutral-900"
+                  className=" px-2 py-1 mb-4  text-sm font-medium text-purple-800  mr-2 rounded bg-neutral-900"
                 >
                   {tech}
                 </span>
