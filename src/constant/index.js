@@ -1,7 +1,7 @@
 import project1 from "../assets/projects img/project.png";
 import project2 from "../assets/projects img/project-2.png";
 import project3 from "../assets/projects img/project-5.png";
-import project4 from "../assets/projects img/project-4.png";
+import project6 from "../assets/projects img/project-6.png";
 
 export const HERO_CONTENT = `I am a passionate Frontend developer with a knack for crafting robust and scalable web applications. 
 I have honed my skills in front-end technologies like React and Tailwiind CSS. 
@@ -19,7 +19,8 @@ export const EXPERIENCES = [
     year: "2024 - Present",
     role: "Frontend Developer Trainee",
     company: "Nerdz Factory ",
-    description:'Collaborate with a team on various web development projects, including building responsive applications using React, HTML, CSS, and JavaScript. Our latest project is an Instagram clone, where we integrate third-party APIs to fetch posts, reels, and user data, focusing on delivering an engaging user experience.',
+    description:
+      "Collaborate with a team on various web development projects, including building responsive applications using React, HTML, CSS, and JavaScript. Our latest project is an Instagram clone, where we integrate third-party APIs to fetch posts, reels, and user data, focusing on delivering an engaging user experience.",
     technologies: ["Javascript", "React.js", "HTML", "CSS"],
   },
   {
@@ -30,25 +31,24 @@ export const EXPERIENCES = [
     JavaScript, and React, enhancing user experience and functionality.`,
     technologies: ["Javascript", "React.js", "HTML", "CSS"],
   },
-  
 ];
 
 export const PROJECTS = [
   {
-    title: "Portfolio Website",
-    image: project4,
+    title: "Car Rental App",
+    image: project6,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-    href: "https://itunu-raji.vercel.app",
-    git: "https://github.com/itunumide/sail-portfolio",
+      "Car Rental App is a project I’m currently working on in collaboration with others, built with React and Tailwind CSS. The app allows users to browse and rent cars with ease, featuring a responsive and user-friendly interface. This project demonstrates my skills in modern frontend development, performance optimization, and creating seamless user experiences while building dynamic, real-time applications.",
+    technologies: ["HTML", "JavaScript", "React", "Tailwind CSS"],
+    href: "https://car-rental-murex-three.vercel.app",
+    git: "https://github.com/itunumide/car-rental",
   },
   {
-    title: "Hero Page",
+    title: "Youtube Clone",
     image: project3,
     description:
       "This RIATUBE is a React-based web application replicating key YouTube features, including video search, playback, and detailed views. Built with a responsive and user-friendly interface, this project demonstrates my skills in modern frontend development and creating seamless user experiences.",
-    technologies: ["HTML", "JavaScript", "React","Tailwind CSS"],
+    technologies: ["HTML", "JavaScript", "React", "Tailwind CSS"],
     href: "https://youtube-clone-rho-flax.vercel.app",
     git: "https://github.com/itunumide/youtubeClone",
   },
