@@ -20,8 +20,18 @@ export const EXPERIENCES = [
     role: "Frontend Developer Trainee",
     company: "Nerdz Factory ",
     description:
-      "Collaborate with a team on various web development projects, including building responsive applications using React, HTML, CSS, and JavaScript. Our latest project is an Instagram clone, where we integrate third-party APIs to fetch posts, reels, and user data, focusing on delivering an engaging user experience.",
-    technologies: ["Javascript", "React.js", "HTML", "CSS"],
+      "Developed real-world, responsive applications with a strong emphasis on user experience, maintainable code, and industry-standard development practices.",
+
+    technologies: [
+      "Javascript",
+      "React.js",
+      "HTML",
+      "CSS",
+      "REST APIs",
+      "React Context API",
+      "Redux",
+      "Tailwind CSS",
+    ],
   },
   {
     year: "2024",
@@ -38,9 +48,9 @@ export const PROJECTS = [
     title: "Car Rental App",
     image: project6,
     description:
-      "Car Rental App is a project I’m currently working on in collaboration with others, built with React and Tailwind CSS. The app allows users to browse and rent cars with ease, featuring a responsive and user-friendly interface. This project demonstrates my skills in modern frontend development, performance optimization, and creating seamless user experiences while building dynamic, real-time applications.",
+      "The Car Rental App allows users to seamlessly browse, compare, and book vehicles, offering detailed information on availability, pricing, and features. Designed with a responsive, user-friendly interface, it ensures an efficient and enjoyable rental experience across devices.",
     technologies: ["HTML", "JavaScript", "React", "Tailwind CSS"],
-    href: "https://car-rental-murex-three.vercel.app",
+    href: "https://car-rental-69nq.vercel.app",
     git: "https://github.com/itunumide/car-rental",
   },
   {
@@ -53,6 +63,15 @@ export const PROJECTS = [
     git: "https://github.com/itunumide/youtubeClone",
   },
   {
+    title: "Modern React Educational Platform",
+    image: project2,
+    description:
+      "This ongoing project is an educational platform inspired by Edusity, developed with a modern React stack to capture its key functionalities and engaging user experience. The aim is to provide an accessible, responsive, and interactive learning interface, leveraging the latest frontend technologies for optimal performance and usability.",
+    technologies: ["HTML", "CSS", "React"],
+    href: "https://edusity-clone.vercel.app",
+    git: "https://github.com/itunumide/edusity-clone",
+  },
+  {
     title: "Social Media Dashboard",
     image: project1,
     description:
@@ -61,15 +80,7 @@ export const PROJECTS = [
     href: "https://social-media-dashboard-seven-silk.vercel.app",
     git: "https://github.com/itunumide/social-media-dashboard",
   },
-  {
-    title: "Form Page",
-    image: project2,
-    description:
-      "This Form Page is a user-friendly contact form built using React, which allows users to input their name, email, and address. It features a simple yet responsive design implemented using styled-components for CSS-in-JS styling.",
-    technologies: ["HTML", "CSS", "React"],
-    href: "https://form-page-raji-itunu-idowus-projects.vercel.app",
-    git: "https://github.com/itunumide/form-page",
-  },
+
   // {
   //   title: "Portfolio Website",
   //   image: project4,
