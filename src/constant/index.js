@@ -66,8 +66,8 @@ export const PROJECTS = [
     title: "Modern React Educational Platform",
     image: project2,
     description:
-      "This ongoing project is an educational platform inspired by Edusity, developed with a modern React stack to capture its key functionalities and engaging user experience. The aim is to provide an accessible, responsive, and interactive learning interface, leveraging the latest frontend technologies for optimal performance and usability.",
-    technologies: ["HTML", "CSS", "React"],
+      "Edusity Clone is a modern frontend project built with React and Vite, styled with Tailwind CSS. It delivers a fast, responsive, and clean UI, showcasing my ability to create scalable and maintainable web applications with industry-standard tools.",
+    technologies: ["HTML", "Tailwind CSS", "React","JavaScript"],
     href: "https://edusity-clone.vercel.app",
     git: "https://github.com/itunumide/edusity-clone",
   },
