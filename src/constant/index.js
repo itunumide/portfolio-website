@@ -87,7 +87,7 @@ export const PROJECTS = [
   //   description:
   //     "A personal portfolio website showcasing projects, skills, and contact information.",
   //   technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  //   href: "https://itunu-raji.vercel.app",
+  //   href: "https://itunu-raji.vercel.app",u
   //   git: "https://github.com/itunumide/sail-portfolio",
   // },
   // {
@@ -103,6 +103,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "Lagos, Nigeria ",
-  phoneNo: "+234 705 324 379 ",
+  phoneNo: "+234 705 3273 954 ",
   email: "rajiitunuidowu@gmail.com",
 };
