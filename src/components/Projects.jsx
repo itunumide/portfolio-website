@@ -3,6 +3,9 @@ import { motion } from "framer-motion";
 import { SiVercel } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 
+
+
+
 export const Projects = () => {
   return (
     <div className="border-b border-neutral-900 pb-4 ">
@@ -49,16 +52,17 @@ export const Projects = () => {
                 </span>
               ))}
               <div className="flex items-center justify-between my-4 max-w-[23rem]">
-                <span className="flex items-center gap-4">
-                  <FaGithub className="text-4xl" />{" "}
-                  <a
-                    href={project.git}
+                {project.git && (
+                  <span className="flex items-center gap-4">
+                    <FaGithub className="text-4xl" />{" "}
+                    <a
+                      href={project.git}
                     target="blank"
                     className="text-sm hover:underline"
                   >
                     View code
                   </a>
-                </span>
+                </span>)}
                 <span className="flex items-center gap-4">
                   <SiVercel className=" text-3xl" />{" "}
                   <a

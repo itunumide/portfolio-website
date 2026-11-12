@@ -72,7 +72,7 @@ export const PROJECTS = [
     href: "https://edusity-clone.vercel.app",
     git: "https://github.com/itunumide/edusity-clone",
   },
-   {
+  {
     title: "Data Analytics Course Landing Page",
     image: project7,
     description:
