@@ -2,6 +2,7 @@ import project1 from "../assets/projects img/project.png";
 import project2 from "../assets/projects img/project-2.png";
 import project3 from "../assets/projects img/project-5.png";
 import project6 from "../assets/projects img/project-6.png";
+import project7 from "../assets/projects img/project-7.png";
 
 export const HERO_CONTENT = `I am a passionate Frontend developer with a knack for crafting robust and scalable web applications. 
 I have honed my skills in front-end technologies like React and Tailwiind CSS. 
@@ -16,7 +17,7 @@ Outside of coding, I enjoy staying active, exploring new technologies.`;
 
 export const EXPERIENCES = [
   {
-    year: "2024 - Present",
+    year: "2024",
     role: "Frontend Developer Trainee",
     company: "Nerdz Factory ",
     description:
@@ -70,6 +71,15 @@ export const PROJECTS = [
     technologies: ["HTML", "Tailwind CSS", "React","JavaScript"],
     href: "https://edusity-clone.vercel.app",
     git: "https://github.com/itunumide/edusity-clone",
+  },
+   {
+    title: "Data Analytics Course Landing Page",
+    image: project7,
+    description:
+      "A responsive landing page for an online data analytics course, featuring a hero section, learning outcomes, student testimonials, an instructor profile, and a newsletter signup.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    href: "https://www.victortheanalyst.com",
+   
   },
   {
     title: "Social Media Dashboard",
